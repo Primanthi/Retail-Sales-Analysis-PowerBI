@@ -11,7 +11,7 @@ This project analyzes retail sales data from **January 2023 to December 2025** c
 
 ## Project Dashboard Overview 
 
-![Retail Sales Project](/SS.Png)
+![Retail Sales Project](/SS.png)
 
 **Headline numbers**
 
