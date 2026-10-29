@@ -1,0 +1,101 @@
+employee_id,employee_name,department,salary
+1,Alicia Carrillo,Finance,89735
+2,Derek Nash,HR,113000
+3,Heather Nelson,sales,82504
+4,Mary Clark,Sales,70021
+5,Jennifer Scott,Sales,81347
+6,Darrell Walker,Finance,75093
+7,William Moore,Sales,67653
+8,Thomas Clark,Operations,81245
+9,Theresa Jennings,sales,105435
+10,Edward Powers,Finance,100142
+11,Tiffany Mills,sales,74718
+12,Dawn Fleming,sales,72325
+13,Michael King,IT ,113579
+14,Sandra Simon,Operations,74438
+15,Alan Shields,IT ,116622
+16,Jennifer Cummings,Finance,116484
+17,Michael Ryan,Finance,87447
+18,Lucas Mendez,sales,58131
+19,Amy Mendoza,Operations,104686
+20,Carol Good,Sales,46175
+21,Gregory Anderson,Sales,60033
+22,Joshua Knapp,IT ,60969
+23,Terrance Carter,IT ,95333
+24,Jimmy Sparks,Operations,48326
+25,Tiffany Christensen,Finance,90019
+26,Jennifer Sutton,Operations,101348
+27,Kevin Frank,Operations,72953
+28,Danielle Moran,Operations,41504
+29,Tracy Hebert,IT ,55014
+30,Mark Johnson,IT ,110381
+31,Wendy Stevens,HR,84587
+32,Virginia Holt,Sales,78469
+33,Dr. Joseph Green Jr.,Finance,60730
+34,Sandra Harris,Finance,40425
+35,William Parsons,IT ,74522
+36,Jennifer Gaines,Operations,63416
+37,Robert Frost,Operations,53947
+38,Colleen Morris,IT ,79117
+39,Thomas Ballard,IT ,106540
+40,Ricardo King,Operations,66071
+41,Bryan Wilson,sales,89009
+42,Robin Jones,sales,110697
+43,Karen Sims,Operations,40074
+44,Joseph Ellis,Operations,82487
+45,Amy Robinson,Finance,42552
+46,Antonio Thompson,Sales,87576
+47,Amy Mitchell,HR,71385
+48,Thomas Martinez,Sales,71571
+49,Janet Roberts,Operations,50322
+50,Cory Gonzalez,Sales,103699
+51,David Herrera,Sales,109822
+52,Christine Ford,sales,56828
+53,Dr. Jason Lin,IT ,102296
+54,Ronald Tran,Operations,61643
+55,Joseph Dennis,HR,109163
+56,Kelli Sharp,Operations,95461
+57,Katherine Barnett,sales,110686
+58,Abigail Davis,IT ,66365
+59,Gary Dyer,IT ,80857
+60,Rebecca Ford,Finance,88944
+61,Tammy Black,Finance,107839
+62,Samantha Collins,Finance,55860
+63,Melissa Joseph,sales,69451
+64,Jessica King,Sales,84313
+65,Robert Thomas,Sales,117110
+66,Jeremy Williams,Operations,70161
+67,Alyssa Shelton,Operations,68864
+68,Charles Taylor,Sales,49305
+69,Ralph Wallace,IT ,47716
+70,Richard James,sales,48834
+71,Samantha Brewer,Sales,83309
+72,Andrew Baker,Sales,107391
+73,Matthew Henry,sales,76500
+74,Chloe Parker,IT ,103624
+75,Carl Brown,sales,110678
+76,Cynthia Gilbert,sales,114847
+77,Kelly White,Operations,101953
+78,Cindy Roberson,sales,101993
+79,James Rivera,Finance,64957
+80,Thomas Thompson,Sales,52704
+81,Matthew Hall,IT ,96498
+82,Molly Douglas,HR,95519
+83,Steven Williams,Finance,101213
+84,Joseph Harrison,IT ,47100
+85,Deborah Ware,IT ,52899
+86,Seth Costa,Sales,92772
+87,Cody Garcia,IT ,84473
+88,Stephanie Bullock,Sales,72591
+89,Dalton Holland,sales,64931
+90,Mrs. Alicia Farrell DVM,Operations,98800
+91,Alicia Lopez,sales,95296
+92,Gregory Russell,sales,76509
+93,Eduardo Taylor,Finance,72742
+94,Brian Thornton,Sales,98082
+95,Michelle Medina,Operations,52833
+96,Samuel Hughes,Sales,110855
+97,Valerie Martin,Sales,52224
+98,Wanda Robbins,sales,61798
+99,Ashley Sheppard,Finance,103653
+100,Lauren Mcdonald MD,Finance,68016

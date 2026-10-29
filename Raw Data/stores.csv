@@ -1,0 +1,26 @@
+store_id,store_name,city,state,region_id,manager_id
+1,Store_1,North Robert,Texas,1,95
+2,Store_2,South Marvin,Illinois,2,29
+3,Store_3,South Tara,Florida,1,87
+4,Store_4,Maryport,NY,1,76
+5,Store_5,Richardbury,TX,1,4
+6,Store_6,Port Shannon,Texas,2,30
+7,Store_7,North Jamieland,NY,1,72
+8,Store_8,North Rebecca,New York,4,29
+9,Store_9,New Justin,FL,3,1
+10,Store_10,Alvarezmouth,Florida,4,44
+11,Store_11,Port Lynn,Illinois,2,28
+12,Store_12,Lake Sara,CA,1,12
+13,Store_13,Reyeston,TX,1,46
+14,Store_14,Malloryshire,CA,3,6
+15,Store_15,Nelsonstad,FL,1,49
+16,Store_16,East Josephfort,Texas,3,81
+17,Store_17,North Diane,CA,2,91
+18,Store_18,New Joshuafort,Texas,1,85
+19,Store_19,Port Jason,New York,3,11
+20,Store_20,New Wayne,New York,1,49
+21,Store_21,North Christineborough,Illinois,4,82
+22,Store_22,Lake Sheila,CA,2,48
+23,Store_23,Port Kyleland,CA,2,86
+24,Store_24,North Robert,Illinois,1,78
+25,Store_25,South Thomas,Florida,2,21
