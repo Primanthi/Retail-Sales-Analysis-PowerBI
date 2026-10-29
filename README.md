@@ -4,24 +4,14 @@ An interactive Power BI dashboard that analyzes retail sales performance across 
 
 ---
 
-## Table of Contents
-1. [Project Overview](#project-overview)
-2. [Business Objectives](#business-objectives)
-3. [Dataset](#dataset)
-4. [Data Model](#data-model)
-5. [DAX Measures](#dax-measures)
-6. [Dashboard Features](#dashboard-features)
-7. [Key Insights](#key-insights)
-8. [Recommendations](#recommendations)
-9. [Tools and Skills](#tools-and-skills)
-10. [How to Use](#how-to-use)
-11. [Future Improvements](#future-improvements)
-
----
 
 ## Project Overview
 
 This project analyzes retail sales data from **January 2023 to December 2025** covering about **50K orders**. The dashboard summarizes sales, profit, orders, and profit margin, and breaks them down by product category, region, and time.
+
+## Project Dashboard Overview 
+
+![Retail Sales Project](SS.Png)
 
 **Headline numbers**
 
