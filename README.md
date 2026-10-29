@@ -21,7 +21,7 @@ An interactive Power BI dashboard that analyzes retail sales performance across 
 
 ## Project Overview
 
-This project analyzes retail sales data from **January 2023 to December 2025** (date slicer range) covering about **50K orders**. The dashboard summarizes sales, profit, orders, and profit margin, and breaks them down by product category, region, and time.
+This project analyzes retail sales data from **January 2023 to December 2025** covering about **50K orders**. The dashboard summarizes sales, profit, orders, and profit margin, and breaks them down by product category, region, and time.
 
 **Headline numbers**
 
@@ -37,11 +37,22 @@ This project analyzes retail sales data from **January 2023 to December 2025** (
 
 ## Business Objectives
 
-- Track overall sales and profit performance at a glance
+- Track overall sales and profit performance 
 - Identify the best and worst performing product categories
 - Compare performance across regions (North, South, East, West)
 - Understand sales trends and seasonality over time
 - Support data-driven decisions on pricing, inventory, and marketing
+
+---
+
+
+## Tools and Skills
+
+- **Power BI Desktop**
+- **Power Query** for data cleaning and transformation
+- **DAX** for measures and calculations
+- **Data modeling** (star schema)
+- **Data visualization and storytelling**
 
 ---
 
@@ -51,13 +62,15 @@ The data is organized into the following tables:
 
 | Table | Key Fields |
 |---|---|
-| **Sales (fact)** | order ID, date, product, customer, quantity, revenue, profit |
-| **products** | category, cost, price |
+| **Sales (fact)** | customer_ID, quantity, discount, order_date, order_id, order_status, product_id, sales_amount, store_id, unit_price |
+| **products** | category, cost, price, product_id, product_name |
 | **customers** | customer_id, customer_name, age, country, email |
-| **employees** | employee details |
+| **employees** | employee_id, employee_name, salary, department |
 | **calendar** | date, month, month_name, quarter, year |
+| **regions** | region_id, region_name |
+| **stores** | city, manager_id, region_id, state, store_id, store_name |
 
-> Update this table to match your actual column names and data source (Excel, CSV, SQL, etc.).
+
 
 ---
 
@@ -66,7 +79,7 @@ The data is organized into the following tables:
 The model follows a **star schema**:
 
 - One central **Sales** fact table
-- Dimension tables: **products**, **customers**, **employees**, **calendar**
+- Dimension tables: **products**, **customers**, **employees**, **calendar**,**stores**, **regions**
 - One-to-many relationships from each dimension to the fact table
 - The **calendar** table is marked as the date table to support time intelligence
 
@@ -82,19 +95,7 @@ The model follows a **star schema**:
 | `Average Order Value` | Total Sales divided by Total Orders |
 | `Profit Margin %` | Total Profit divided by Total Sales |
 
-Example:
 
-```DAX
-Total Sales = SUM(Sales[Revenue])
-
-Profit Margin % = DIVIDE([Total Profit], [Total Sales])
-
-Average Order Value = DIVIDE([Total Sales], [Total Orders])
-```
-
-> Adjust table and column names to match your model.
-
----
 
 ## Dashboard Features
 
@@ -131,51 +132,12 @@ Average Order Value = DIVIDE([Total Sales], [Total Orders])
 - Review the cost assumptions behind the 45% margin before using it for target setting.
 - Plan campaigns around seasonal peaks once the monthly trend is analyzed.
 
----
 
-## Tools and Skills
 
-- **Power BI Desktop**
-- **Power Query** for data cleaning and transformation
-- **DAX** for measures and calculations
-- **Data modeling** (star schema)
-- **Data visualization and storytelling**
 
----
 
-## How to Use
 
-1. Clone or download this repository.
-2. Open the `.pbix` file in **Power BI Desktop**.
-3. If prompted, update the data source path under **Home > Transform data > Data source settings**.
-4. Click **Refresh** to load the latest data.
-5. Use the date and category slicers to explore the dashboard.
 
----
 
-## Future Improvements
 
-- Show sales trend at **monthly** level instead of daily for clearer patterns
-- Add a **target** to the profit margin gauge (e.g., 50%) and set a realistic max value
-- Add **Year-over-Year growth** and rolling average measures
-- Add **Top 10 products and customers** visuals
-- Build a second page for **customer and employee performance**
-- Add **drill-through** pages and tooltips
-- Publish to **Power BI Service** with scheduled refresh and row-level security
 
----
-
-## Screenshot
-
-Add a screenshot of the dashboard here:
-
-```markdown
-![Dashboard Preview](images/dashboard.png)
-```
-
----
-
-## Author
-
-**Your Name**
-[LinkedIn](#) | [GitHub](#) | [Email](#)
